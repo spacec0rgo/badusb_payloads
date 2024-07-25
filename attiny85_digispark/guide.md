@@ -16,6 +16,8 @@ Once you downloaded the zip file:
 - For 64bit OS
   - Execute _DPInst64.exe_
 
+Complete the installation and continue.
+
 ### Adding the library
 
 Once installed the drivers, open the Arduino IDE:
@@ -29,3 +31,19 @@ Once installed the drivers, open the Arduino IDE:
 You should then be able to select and install _Digistump AVR Boards_ from your _Boards Manager_.
 
 ## Uploading a sketch
+
+Before continuing, be sure to select the correct board:
+- Go to _Tools_ > _Board_ > _Digistump AVR Boards_
+- Select the one you're using
+
+![Screenshot of the board selection](/assets/images/arduino_digistump_board_selection.png)
+
+Once you click _Upload_, the IDE will compile the sketch:
+- After compiling, it will wait for the Digispark to be inserted
+- As soon as you plug it into the USB port, it will start uploading
+
+![Screenshot of the Arduino IDE Digispark wait message](/assets/images/digispark_sketch_upload.png)
+
+You will be notified as the upload is done.
+
+![Screenshot of a finished upload message](/assets/images/digispark_upload_done.png)
