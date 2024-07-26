@@ -47,3 +47,38 @@ Once you click _Upload_, the IDE will compile the sketch:
 You will be notified as the upload is done.
 
 ![Screenshot of a finished upload message](/assets/images/digispark_upload_done.png)
+
+## Multi layout support
+
+If you followed the steps to install the library, it's quite easy actually. The version `1.7.5` of _Digistump AVR Boards_ supports a various amount of layouts.
+
+To change the layout, simply define it before including the _DigiKeyboard_ library.
+```c++
+#define LAYOUT_US_ENGLISH
+#include "DigiKeyboard.h"
+```
+
+Supported layouts are:
+- LAYOUT_US_ENGLISH
+- LAYOUT_CANADIAN_FRENCH
+- LAYOUT_CANADIAN_MULTILINGUAL
+- LAYOUT_DANISH
+- LAYOUT_FINNISH
+- LAYOUT_FRENCH
+- LAYOUT_FRENCH_BELGIAN
+- LAYOUT_GERMAN
+- LAYOUT_GERMAN_MAC
+- LAYOUT_ICELANDIC
+- LAYOUT_IRISH
+- LAYOUT_ITALIAN
+- LAYOUT_NORWEGIAN
+- LAYOUT_PORTUGUESE
+- LAYOUT_PORTUGUESE_BRAZILIAN
+- LAYOUT_SPANISH
+- LAYOUT_SPANISH_LATIN_AMERICA
+- LAYOUT_SWEDISH
+- LAYOUT_SWISS_GERMAN
+- LAYOUT_SWISS_FRENCH
+- LAYOUT_TURKISH
+- LAYOUT_UNITED_KINGDOM	
+- LAYOUT_US_INTERNATIONAL
