@@ -23,7 +23,7 @@ To install it, simply open the _Library Manager_ in Arduino IDE and search `hid-
 
 _HID Projects_ supports a various amount of layouts.
 
-To change the layout, simply define it before including the _HID-Project_ library.
+To change the layout, simply define it before including then _HID-Project_ library.
 ```c++
 #define HID_CUSTOM_LAYOUT
 #define LAYOUT_US_ENGLISH
