@@ -27,7 +27,7 @@ void setup() {
 }
 
 void loop() {
-    // Press WIN + R = Execute dialog
+  // Press WIN + R = Execute dialog
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(250);
 
@@ -36,7 +36,7 @@ void loop() {
   DigiKeyboard.println(F("https://youtu.be/dQw4w9WgXcQ"));
   DigiKeyboard.delay(3500);
 
-  // Write message
+  // Press F to make the video full screen
   DigiKeyboard.sendKeyStroke(KEY_F);
   DigiKeyboard.delay(250);
 

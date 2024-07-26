@@ -38,7 +38,7 @@ void loop() {
   Keyboard.releaseAll();
   delay(200);
 
-  // Enter rickroll URL
+  // Enter whistle URL
   // .println also presses ENTER after the string
   Keyboard.println("https://youtu.be/BbeeuzU5Qc8");
   delay(3500);
