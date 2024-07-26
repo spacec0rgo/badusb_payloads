@@ -13,7 +13,6 @@
   Be sure to have the required board or you will get an error.
 */
 
-// #define LAYOUT_HERE
 #include "DigiMouse.h"
 
 // Device initialization
