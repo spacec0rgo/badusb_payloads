@@ -4,7 +4,7 @@
 
 Before continuing, be sure to select the correct board:
 - Go to _Tools_ > _Board_ > _Arduino_ AVR Boards_
-- Select the _Leonardo_ or _Micro_
+- Select _Arduino Leonardo_ or _Micro_
 
 ![Screenshot of the board selection](/assets/images/arduino_leonardo_board_selection.png)
 
