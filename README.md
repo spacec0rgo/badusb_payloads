@@ -11,7 +11,11 @@ Here is a list of compatible devices:
 
 ## How to use
 
-Download the repository files using either _Download ZIp_ or `git clone`. The directories are required by Arduino for every sketch.
+Download the repository files using either _Download ZIp_ or `git clone`.
+
+Arduino requires the sketch to be in a folder with the same name, but don't worry. Even if the files aren't inside their folder, Arduino will ask you to do so the first time you open the sketch.
+
+![Screenshot of the Arduino folder creation dialog](assets/images/arduino_folder_creation_dialog.png)
 
 All `.ino` files contain everything you need to make the sketch work.
 
