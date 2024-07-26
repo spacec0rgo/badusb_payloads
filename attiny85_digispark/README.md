@@ -48,7 +48,7 @@ You will be notified as the upload is done.
 
 ![Screenshot of a finished upload message](/assets/images/digispark_upload_done.png)
 
-## Multi layout support
+## Keyboard layout support
 
 If you followed the steps to install the library, it's quite easy actually. The version `1.7.5` of _Digistump AVR Boards_ supports a various amount of layouts.
 
@@ -82,3 +82,5 @@ Supported layouts are:
 - LAYOUT_TURKISH
 - LAYOUT_UNITED_KINGDOM	
 - LAYOUT_US_INTERNATIONAL
+
+> If not defined, DigiKeyboard will use LAYOUT_US_ENGLISH.

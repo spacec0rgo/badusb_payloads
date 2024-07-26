@@ -13,7 +13,9 @@ Here is a list of compatible devices:
 
 Download the repository files using either _Download ZIp_ or `git clone`. The directories are required by Arduino for every sketch.
 
-Each `.ino` file contains all it needs in order to work.
+All `.ino` files contain everything you need to make the sketch work.
+
+> Each device folder has its own README.md with instructions on how to set everything up.
 
 ## Tips
 
