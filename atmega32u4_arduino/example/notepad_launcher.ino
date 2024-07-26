@@ -42,7 +42,7 @@ void loop() {
   Keyboard.releaseAll();
   delay(200);
 
-  // Enter rickroll URL
+  // Launch Notepad
   // .println also presses ENTER after the string
   Keyboard.println("notepad.exe");
   delay(1500);

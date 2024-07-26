@@ -34,7 +34,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(250);
 
-  // Enter rickroll URL
+  // Launch Notepad
   // .println also presses ENTER after the string
   DigiKeyboard.println(F("notepad.exe"));
   DigiKeyboard.delay(1500);
