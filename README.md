@@ -2,9 +2,9 @@
 This repository is a collection of payloads, mostly for Arduino IDE compatible devices.
 
 Here is a list of compatible devices:
-- Attiny85
+- ATtiny85
   - Digistump Digispark
-- Atmega32u4
+- ATmega32U4
   - Arduino Leonardo
   - Arduino Micro
   - Arduino Leonardo clones
