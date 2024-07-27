@@ -38,6 +38,10 @@ Before continuing, be sure to select the correct board:
 
 ![Screenshot of the board selection](/assets/images/arduino_digistump_board_selection.png)
 
+Then select the correct Clock speed, for V-USB it should be 16.5 MHz.
+
+![Screenshot of the clock speed selection](/assets/images/arduino_digistump_clock_speed.png)
+
 Once you click _Upload_, the IDE will compile the sketch:
 - After compiling, it will wait for the Digispark to be inserted
 - As soon as you plug it into the USB port, it will start uploading
