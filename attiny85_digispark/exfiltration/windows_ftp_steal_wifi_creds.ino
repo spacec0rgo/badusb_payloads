@@ -44,6 +44,9 @@ void loop() {
   // being sent two times, this of course is a problem
   // when data needs to be entered ad a precise time,
   // the workaround was using .print and manually send ENTER
+  DigiKeyboard.print(F("cd $Env:userprofile"));
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(2000);
   DigiKeyboard.print(F("mkdir tmp"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(2000);

