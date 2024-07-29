@@ -40,7 +40,6 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(5000);
 
-
   // I noticed that .println results in the ENTER keystroke
   // being sent two times, this of course is a problem
   // when data needs to be entered ad a precise time,
