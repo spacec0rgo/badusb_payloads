@@ -32,7 +32,7 @@ void setup() {
 void loop() {
   // Press WIN + R = Execute dialog
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
-  DigiKeyboard.delay(250);
+  DigiKeyboard.delay(1000);
 
   // Launch Notepad
   // .println also presses ENTER after the string

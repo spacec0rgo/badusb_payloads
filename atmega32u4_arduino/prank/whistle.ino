@@ -36,17 +36,16 @@ void loop() {
   // Release the keys together
   // WIN + R = Execute dialog
   Keyboard.releaseAll();
-  delay(200);
+  delay(1000);
 
   // Enter whistle URL
   // .println also presses ENTER after the string
   Keyboard.println("https://youtu.be/BbeeuzU5Qc8");
-  delay(3500);
+  delay(4500);
 
   // Press F to make the video full screen
-  Keyboard.press('f');
-  delay(200);
-  Keyboard.release('f');
+  Keyboard.write('f');
+  delay(250);
 
   //End Keyboard Control
   Keyboard.end();

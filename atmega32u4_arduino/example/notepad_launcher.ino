@@ -36,11 +36,10 @@ void loop() {
   delay(200);
   // Press R key
   Keyboard.press('r');
-
   // Release the keys together
   // WIN + R = Execute dialog
   Keyboard.releaseAll();
-  delay(200);
+  delay(1000);
 
   // Launch Notepad
   // .println also presses ENTER after the string

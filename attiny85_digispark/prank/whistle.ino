@@ -29,12 +29,12 @@ void setup() {
 void loop() {
   // Press WIN + R = Execute dialog
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
-  DigiKeyboard.delay(250);
+  DigiKeyboard.delay(1000);
 
   // Enter whistle URL
   // .println also presses ENTER after the string
   DigiKeyboard.println(F("https://youtu.be/BbeeuzU5Qc8"));
-  DigiKeyboard.delay(3500);
+  DigiKeyboard.delay(4500);
 
   // Press F to make the video full screen
   DigiKeyboard.sendKeyStroke(KEY_F);
