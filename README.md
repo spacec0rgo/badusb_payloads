@@ -1,5 +1,7 @@
 # BadUSB payloads
-This repository is a collection of payloads, mostly for Arduino IDE compatible devices.
+This repository is a collection of payloads, mostly for Arduino IDE compatible devices. I will also upload some DuckyScripts in the future, but I wanted to focus on affordable devices.
+
+An official USB Rubber Ducky from Hak5 is great for a professional, but not so much for someone who just wants to play around and learn. Not counting Payload Studio PRO, it might not be the best option for most of us, and the Flipper Zero isn't cheap either, but something like an Arduino clone or a Digispark can cost only a few bucks with the possibility of using a free IDE.
 
 Here is a list of compatible devices:
 - ATtiny85
