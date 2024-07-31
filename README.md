@@ -27,4 +27,6 @@ All `.ino` files contain everything you need to make the sketch work.
 
 I used heat shrink tubing on the boards. This way I can easily manage them without worrying about damaging the electronics.
 
+I would suggest using a clear one, so you can easily see the LEDs on the device. Mine was black simply because that was all I had at the time.
+
 ![Photo of a chinese Arduino Leonardo clone with heat shrink tubing](assets/images/leonardo_heatshrink_tubing.jpg)
