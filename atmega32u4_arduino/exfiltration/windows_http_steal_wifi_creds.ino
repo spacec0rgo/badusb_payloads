@@ -27,7 +27,7 @@
 // Device initialization
 void setup() {
   Keyboard.begin();
-  // Mantatory delay before launching payload
+  // Mandatory delay before launching payload
   delay(3000);
 }
 

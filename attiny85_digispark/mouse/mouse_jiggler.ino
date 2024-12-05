@@ -18,7 +18,7 @@
 // Device initialization
 void setup() {
   DigiMouse.begin();
-  // Mantatory delay before launching payload
+  // Mandatory delay before launching payload
   DigiMouse.delay(3000);
 }
 

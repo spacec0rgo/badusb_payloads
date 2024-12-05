@@ -18,7 +18,7 @@
 // Device initialization
 void setup() {
   Mouse.begin();
-  // Mantatory delay before launching payload
+  // Mandatory delay before launching payload
   delay(3000);
 }
 
