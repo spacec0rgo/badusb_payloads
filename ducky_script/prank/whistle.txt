@@ -1,0 +1,21 @@
+REM TITLE Whistle
+REM AUTHOR c0rgo
+REM DESCRIPTION It's just a prank, bro.
+REM TARGET Windows
+
+REM Mandatory delay before launching payload
+DELAY 3000
+
+REM Press WIN + R = Execute dialog
+GUI r
+DELAY 1000
+
+REM Launch Notepad
+STRINGLN https://youtu.be/BbeeuzU5Qc8
+DELAY 4500
+
+REM Write message
+STRINGLN f
+DELAY 250
+
+REM End of payload

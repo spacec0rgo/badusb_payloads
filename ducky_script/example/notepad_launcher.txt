@@ -1,0 +1,21 @@
+REM TITLE Notepad Launcher
+REM AUTHOR c0rgo
+REM DESCRIPTION A simple notepad.exe launcher to demonstrate the risks derived from USB payloads.
+REM TARGET Windows
+
+REM Mandatory delay before launching payload
+DELAY 3000
+
+REM Press WIN + R = Execute dialog
+GUI r
+DELAY 1000
+
+REM Launch Notepad
+STRINGLN notepad.exe
+DELAY 1500
+
+REM Write message
+STRING do not trust anyone
+DELAY 250
+
+REM End of payload

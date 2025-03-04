@@ -1,7 +1,7 @@
 # BadUSB payloads
-This repository is a collection of payloads, mostly for Arduino IDE compatible devices. I will also upload some DuckyScripts in the future, but I wanted to focus on affordable devices.
+This repository is a collection of payloads, mostly for Arduino IDE compatible devices. I will also upload Ducky Script versions, but my priority is to provide affordable alternatives.
 
-An official USB Rubber Ducky from Hak5 is great for a professional, but not so much for someone who just wants to play around and learn. Not counting Payload Studio PRO, it might not be the best option for most of us, and the Flipper Zero isn't cheap either, but something like an Arduino clone or a Digispark can cost only a few bucks with the possibility of using a free IDE.
+An official USB Rubber Ducky from Hak5 is great for a professional, but not so much for someone who just wants to play around and learn. Even without considering Payload Studio PRO, it might not be the best option for most of us, and the Flipper Zero isn't cheap either, but something like an Arduino clone or a Digispark can cost only a few bucks with the possibility of using a free IDE.
 
 Here is a list of compatible devices:
 - ATtiny85
@@ -10,6 +10,10 @@ Here is a list of compatible devices:
   - Arduino Leonardo
   - Arduino Micro
   - Arduino Leonardo clones
+- Ducky Script
+  - USB Rubber Ducky
+  - Flipper Zero
+  - LILYGO T-Embed CC1101
 
 ## How to use
 
@@ -27,6 +31,6 @@ All `.ino` files contain everything you need to make the sketch work.
 
 I used heat shrink tubing on the boards. This way I can easily manage them without worrying about damaging the electronics.
 
-I would suggest using a clear one, so you can easily see the LEDs on the device. Mine was black simply because that was all I had at the time.
+> I would suggest using a clear one, so you can easily see the LEDs on the device. Mine was black simply because that was all I had at the time.
 
 ![Photo of a chinese Arduino Leonardo clone with heat shrink tubing](assets/images/leonardo_heatshrink_tubing.jpg)

