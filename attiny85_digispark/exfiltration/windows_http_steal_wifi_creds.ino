@@ -26,7 +26,7 @@
 // Device initialization
 void setup() {
   DigiKeyboard.update();
-  // Mantatory delay before launching payload
+  // Mandatory delay before launching payload
   DigiKeyboard.delay(3000);
 }
 
