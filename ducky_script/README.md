@@ -39,7 +39,7 @@ You can find a list of compatible layouts in the official USB Rubber Ducky repos
 
 To upload a script you can simply plug the microSD card into your computer and drop it into the appropriate directory.
 
-> For example, the default path for badUSB scripts on the FLipper Zero is `SD Card/badusb/`.
+> For example, the default path for badUSB scripts on the Flipper Zero is `SD Card/badusb/`.
 
 ### Upload via software
 
